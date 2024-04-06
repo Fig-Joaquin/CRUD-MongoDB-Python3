@@ -49,12 +49,32 @@ def read_all():
     for dog in collection.find():
         print(dog)
 
+def read_name():
+    dog_name = input("Ingrese el nombre del animal: ")
+    dog = collection.find_one({"name": dog_name})
+    if dog:
+        print(dog)
+    else:
+        print("No se encontró ningún animal con ese nombre.")
+        
+def read_breed():
+    dog_breed = input("Ingrese la raza del animal: ")
+    dog = collection.find_one({"breed": dog_breed})
+    if dog:
+        print(dog)
+    else:
+        print("No se encontró ningún animal con esa raza.")
+
+
 def menu():
     while True:
         print("\nSistema CRUD hecho en python con la base de datos mongo.")
         print("1. Agregar una mascota en la Base de Datos")
         print("2. Buscar mascotas en la Base de Datos")
-        print("3. Salir del programa")
+        print("3. Busqueda por nombre")
+        print("4. Busqueda por raza")
+        print("5. Cambiar el nombre de un perro")
+        print("6. Salir del programa")
         option = input("Seleccione una opción: ")
 
         if option == "1":
@@ -62,6 +82,12 @@ def menu():
         elif option == "2":
             read_all()
         elif option == "3":
+            read_name()
+        elif option == "4":
+            read_breed()
+        elif option == "5":
+            update_dog_name()
+        elif option == "6":
             break
         else:
             print("Opción no válida. Inténtelo de nuevo.")
