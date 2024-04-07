@@ -24,8 +24,7 @@ db = client.test
 collection = None
 collection_chosen = None
 # la colección tiene como nombre perros.
-# collection = collection_chosen
-collection = db.perros
+collection = collection_chosen
 # Limpiar pantalla
 def clear_screen():
     os.system('cls' if platform.system() == 'Windows' else 'clear')
