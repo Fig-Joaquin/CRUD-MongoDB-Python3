@@ -4,10 +4,15 @@ from bson import ObjectId
 import os
 
 # Conectarse a la base de datos
-client = MongoClient("mongodb+srv://mrxalo2000:aRR5KXDyI19fS4or@cluster0.9ty8e2e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb://localhost:27017/")
 db = client.test # Cambia "nombre_de_tu_base_de_datos" por el nombre de tu base de datos
 collection = db.perros # Cambia "nombre_de_tu_coleccion" por el nombre de tu colección
 
+# Obtener y desplegar las colecciones disponibles
+collections = db.list_collection_names()
+print("Colecciones disponibles:")
+for collection in collections:
+    print(collection)
 # Solicitar al usuario que ingrese el nombre de la colección
 userCollection = input("Por favor, ingresa el nombre de la colección: ")
 # Colección elegida por el usuario
