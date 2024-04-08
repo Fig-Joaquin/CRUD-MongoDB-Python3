@@ -40,45 +40,45 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 5. Instalar el sistema de gestión de paqueres PIP.
 
 ## Instalación de los programas utilizados en linux
-* Instalar Python3 a través de la terminal.
+1. Instalar Python3 a través de la terminal.
 ```sh
 sudo apt update
 sudo apt install python3
 ```
-Verificar si está instalado correctamente.
+_Verificar si está instalado correctamente._
 ```sh
 python3 --version
 ```
-* Instalar PIP en linux
+2. Instalar PIP en linux
 ```sh
     sudo apt update
     sudo apt install python3-pip
   ```
-* Instalar ambiente de desarrollo virtualenv
+3. Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
   ```
 ## Instalación de los programas utilizados en MacOS
-* Instalar Homebrew en caso de no tenerlo instalado
+1. Instalar Homebrew en caso de no tenerlo instalado
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ```
-* Instalar Python3
+2. Instalar Python3
 ```sh 
 brew install python
 
 ```
-Verificar la instalación:
+_Verificar la instalación:_
 ```sh 
 python3 --version
 
 ```
-* Instalar PIP en MacOs
+3. Instalar PIP en MacOs
 ```sh
     brew install python 
 ```
-* Instalar ambiente de desarrollo virtualenv
+4. Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
   ```
