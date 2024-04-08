@@ -64,7 +64,7 @@ python3 --version
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ```
-2. Instalar Python3
+2. Instalar Python3 y PIP
 ```sh 
 brew install python
 
@@ -73,10 +73,6 @@ _Verificar la instalación:_
 ```sh 
 python3 --version
 
-```
-3. Instalar PIP en MacOs
-```sh
-    brew install python 
 ```
 4. Instalar ambiente de desarrollo virtualenv
 ```sh
