@@ -16,10 +16,10 @@ Una de los objetivos más importante de este proyecto es la interación de un us
 
 ## _¿Qué es un CRUD?_
 Un CRUD en la base de datos se refiere a funcionalidades de:
-* Create: Crear un registro en la Base de Datos.
-* Read: Leer un documento de la Base de Datos.
-* Update: Actualizar un documento de la Base de Datos.
-* Delete: Eliminar un documento de la Base de Datos.
+* Create: Crear un documento en la base de datos.
+* Read: Leer un documento de la base de datos.
+* Update: Actualizar un documento de la base de datos.
+* Delete: Eliminar un documento de la base de datos.
 
 ## Requisitos
 
@@ -27,15 +27,26 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 2. Tener instalado MongoDB Compasss o MongoShell para ejecutar la Base de Datos
 3. Tener instalado el sistema de gestión de paquetes PIP de Python
 
-## Para ejecutar el programa será necesario:
+## Pasos ejecutar el programa:
 1. Descargar los archivos src existentes presentes en el Github.
 2. Descomprimir el archivo, si es que no se utilizó git clone.
 3. Crear una nueva carpeta y pegar la carpeta src.
 4. Instalar un ambiente de desarrollo virtual para Python en la carpeta creada.
 ```sh
-  npm install npm@latest -g
+  virtualenv proyect-py
+
   ```
 5. Instalar el sistema de gestión de paqueres PIP.
+## Instalación de los programas utilizados
+* Instalar PIP en linux
+```sh
+    sudo apt update
+    sudo apt install python3-pip
+  ```
+* Instalar ambiente de desarrollo virtualenv
+```sh
+    pip3 install virtualenv
+  ```
 
 Instalaciones hechas:
 pip install pymongo
