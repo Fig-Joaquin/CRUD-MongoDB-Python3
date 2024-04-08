@@ -37,12 +37,25 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 
   ```
 5. Instalar el sistema de gestión de paqueres PIP.
+
 ## Instalación de los programas utilizados
+1. Instalar PIP
 * Instalar PIP en linux
 ```sh
     sudo apt update
     sudo apt install python3-pip
   ```
+* Instalar PIP en MacOs
+```sh
+    brew install python 
+```
+* Instalar PIP en Windows
+
+```sh
+    python get-pip.py
+
+```
+2. Instalar ambiente de desarrollo
 * Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
