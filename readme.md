@@ -8,10 +8,10 @@ La base de datos utilizada fue por preferencia MongoDB.
 Una de las funcionalidades más importante de este proyecto es la interación del usuario con la Base de Datos MongoDB. Cuyas funcionalidades es un CRUD.
 ## _¿Qué es un CRUD?_
 Un CRUD en la base de datos se refiere a funcionalidades de:
-Create: Crear un registro en la Base de Datos.
-Read: Leer un documento de la Base de Datos.
-Update: Actualizar un documento de la Base de Datos.
-Delete: Eliminar un documento de la Base de Datos.
+* Create: Crear un registro en la Base de Datos.
+* Read: Leer un documento de la Base de Datos.
+* Update: Actualizar un documento de la Base de Datos.
+* Delete: Eliminar un documento de la Base de Datos.
 
 ## Requisitos
 
