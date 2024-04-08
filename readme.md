@@ -5,7 +5,14 @@
 Este es un proyecto construído con las tecnologías de Python.
 La base de datos utilizada fue por preferencia MongoDB.
 ## _¿Cuál es el proposito de este proyecto?_
-Una de las funcionalidades más importante de este proyecto es la interación del usuario con la Base de Datos MongoDB. Cuyas funcionalidades es un CRUD.
+Una de las funcionalidades más importante de este proyecto es la interación del usuario con la Base de Datos MongoDB.
+
+## Las siguientes funcionalidades desarrolladas en este proyecto son:
+* Funciones CRUD. 
+* Función crear una nueva colección a través de la importación de una Base de Datos MongoDB.
+* Función de exportar una colección en la Base de Datos mongoDB.
+* Función selección de colección en la Base de Datos MongoDB.
+
 ## _¿Qué es un CRUD?_
 Un CRUD en la base de datos se refiere a funcionalidades de:
 * Create: Crear un registro en la Base de Datos.
