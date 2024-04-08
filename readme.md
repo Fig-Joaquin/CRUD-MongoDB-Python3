@@ -23,9 +23,10 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 
 ## Requisitos
 
-1. Tener instalado una versión de Python superior a las 3.0 para ejecutar el programa
-2. Tener instalado MongoDB Compasss o MongoShell para ejecutar la Base de Datos
-3. Tener instalado el sistema de gestión de paquetes PIP de Python
+1. Tener instalado una versión de Python superior a las 3.0 para ejecutar el programa.
+2. Tener instalado MongoDB Compasss o MongoShell para ejecutar la Base de Datos.
+3. Tener instalado el sistema de gestión de paquetes PIP de Python.
+4. Seguir los pasos de instalación señalados en este Readme.
 
 ## Pasos ejecutar el programa:
 1. Descargar los archivos src existentes presentes en el Github.
@@ -39,7 +40,15 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 5. Instalar el sistema de gestión de paqueres PIP.
 
 ## Instalación de los programas utilizados en linux
-
+* Instalar Python3 a través de la terminal.
+```sh
+sudo apt update
+sudo apt install python3
+```
+Verificar si está instalado correctamente.
+```sh
+python3 --version
+```
 * Instalar PIP en linux
 ```sh
     sudo apt update
@@ -50,6 +59,21 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
     pip3 install virtualenv
   ```
 ## Instalación de los programas utilizados en MacOS
+* Instalar Homebrew en caso de no tenerlo instalado
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+```
+* Instalar Python3
+```sh 
+brew install python
+
+```
+Verificar la instalación:
+```sh 
+python3 --version
+
+```
 * Instalar PIP en MacOs
 ```sh
     brew install python 
