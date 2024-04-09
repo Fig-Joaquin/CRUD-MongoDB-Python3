@@ -94,6 +94,7 @@ _MongoDB Shell (Opcional)_
 * Instalar MongoDB Compass (Interfaz Gráfica)
 * [Click aquí para acceder al link de descarga](https://www.mongodb.com/try/download/compass)
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
+
 Instalaciones hechas:
 pip install pymongo
 
