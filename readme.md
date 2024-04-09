@@ -56,15 +56,25 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 ## Menu del CRUD
 En el menu del CRUD tendremos opciones de:
 1. Agregar un perro a la base de datos.
+* Nos pedirá cada dato del esquema de la base de datos.
 2. Mostrar todos los perros registrados.
+* Se mostraran todos los perros registrados en la base de datos.
 3. Buscar un perro por su nombre.
+* Se debe ingresar el nombre de la mascota. Se mostrará el esquema completo de la mascota.
 4. Buscar un perro por su dueño.
+* Se debe ingresar el nombre del dueño de la mascota. Se mostrará el esquema completo de la mascota.
 5. Buscar un perro por su raza.
+* Se debe ingresar el nombre de la raza de la mascota. Se mostrará el esquema completo de la mascota.
 6. Actualizar la información de un perro.
+* Se mostrará la inforamción del esquema, se debe escribir que dato se requiere cambiar. Luego el programa nos pedirá el nuevo dato a ingresar.
 7. Eliminar un perro de la base de datos.
+* Se pide ingresar el nombre del dueño de la mascota, además se mostrará si el dueño tiene uno o más perros. (Evita mal manejo de la información)
 8. Exportar la colección de la base de datos.
+(Se exportará la colección actual en la carpeta json-files)
 9. Volver al menu principal.
+* Vuelve al menu principal.
 10. Salir del programa.
+* Termina la ejecución del programa.
 * _Se debe de ingresar el numero correspondiente a la opción a utilizar_
 
 ## Esquema utilizado en la base de datos MongoDB.

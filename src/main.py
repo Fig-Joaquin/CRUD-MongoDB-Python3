@@ -261,7 +261,7 @@ def text_menu():
     
     print("                Main menu")
     print("1. Agregar una perro")
-    print("2. Mostrar todos los perros registados")
+    print("2. Mostrar todos los perros registrados")
     print("3. Buscar un perro por su dueño")
     print("4. Buscar un perro por su nombre")
     print("5. Buscar un perro por su raza")
@@ -272,7 +272,7 @@ def text_menu():
     print("10. Salir del programa")
 # Texto de seleccion de la colección
 def text_collection():
-    print("Por favor, seleccione una colección de la base de datos.\n Si desea volver atrás, escribir: (salir)")
+    print("Por favor, seleccione una colección de la base de datos.\n Si desea volver atrás, escribir: salir")
 
 def menu_collection():
     clear_screen()
