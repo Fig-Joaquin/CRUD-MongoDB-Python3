@@ -21,7 +21,7 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 * Update: Actualizar un documento de la base de datos.
 * Delete: Eliminar un documento de la base de datos.
 
-## Requisitos
+## Requisitos ⚠️
 
 1. Tener instalado una versión de Python superior a las 3.0 para ejecutar el programa.
 2. Tener instalado MongoDB Compasss o MongoShell para ejecutar la Base de Datos.
