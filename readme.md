@@ -56,7 +56,8 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 * Para acceder a las funcionalidades del menu, se debe importar el json con la base de datos a través de la opción _import_, además debemos de seleccionar la colección con la cual vamos a trabajar a través de la opción _select_.
 1. Al seleccionar esta opción nos redireccionará al menú del CRUD la cual nos mostrará las siguientes opciones:
 ## Menu del CRUD
-En el menu del CRUD tendremos opciones de:
+_Se debe de ingresar el numero correspondiente a la opción a utilizar_
+* En el menu del CRUD tendremos opciones de:
 1. Agregar un perro a la base de datos.
 * Nos pedirá cada dato del esquema de la base de datos.
 2. Mostrar todos los perros registrados.
@@ -77,7 +78,6 @@ En el menu del CRUD tendremos opciones de:
 * Vuelve al menu principal.
 10. Salir del programa.
 * Termina la ejecución del programa.
-* _Se debe de ingresar el numero correspondiente a la opción a utilizar_
 
 ## Esquema utilizado en la base de datos MongoDB.
 * El nombre de la mascota como tipo String: __"name"__
