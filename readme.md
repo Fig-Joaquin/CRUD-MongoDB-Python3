@@ -35,10 +35,10 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 # Consejos ✏️
 * Si sigues los pasos y surge algún problema, siempre puedes consultar por ayuda.
 * Recuerda instalar los programas requeridos. Si falta alguno puede que no se ejecute el programa.
-* En MacOS si surgen problemas con MongoDB, intenta descargar MongoDB Comunity Server. Si no ejecuta con mongod, incluye el path. Ejemplo: _sudo mongod --dbpath=/Users/nombre-del-usuario-de-la-maquina/data/db_
+* En MacOS si surgen problemas con MongoDB, intenta descargar MongoDB Comunity Server. Si no ejecuta con mongod, incluye el path en la terminal. Ejemplo: _sudo mongod --dbpath=/Users/nombre-del-usuario-de-la-maquina/data/db_
 
 ## Instrucciones del programa 📍
-1. De primera vista el programa nos motrará un mensaje de bienvenida. Presionar Enter para continuar.
+1. De primera vista el programa nos mostrará un mensaje de bienvenida. Presionar Enter para continuar.
 2. El programa nos mostrará el menu el cual tendremos a elección 3 secciones.
 - Se debe escribir el nombre de la opción en la terminal para acceder a ella. 
 - _Las siguientes opciones son las siguientes_
@@ -101,7 +101,7 @@ En el menu del CRUD tendremos opciones de:
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
 
 
-## Instalación de los programas requeridos en linux 💻
+## Instalación de los programas requeridos en Linux 💻
 1. Instalar Python3 a través de la terminal.
 ```sh
 sudo apt update
