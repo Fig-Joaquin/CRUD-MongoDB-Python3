@@ -59,26 +59,26 @@ python main.py
 ```
 
 
-## Instalación de los programas utilizados en Windows 💻
-* Instalar PIP en Windows
+## Instalación de los programas requeridos en Windows 💻
+1. Instalar PIP en Windows
 ```sh
     python get-pip.py
 ```
-* Instalar ambiente de desarrollo virtualenv
+2. Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
   ```
-* Instalar librería pymongo
+3. Instalar librería pymongo
 ```sh 
     pip install pymongo
 ```
-* Instalar MongoDB Compass (Interfaz Gráfica)
+4. Instalar MongoDB Compass (Interfaz Gráfica)
 * [Click aquí para acceder al link de descarga](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
 
 
-## Instalación de los programas utilizados en linux 💻
+## Instalación de los programas requeridos en linux 💻
 1. Instalar Python3 a través de la terminal.
 ```sh
 sudo apt update
@@ -101,7 +101,14 @@ python3 --version
 ```sh 
     pip install pymongo
 ```
-## Instalación de los programas utilizados en MacOS 🖥️
+5. Instalar MongoDB Compass
+_Se debe de descargar en el link que se encuentra al final de esta página_
+* Para instalar el paquete descargado:
+```sh
+sudo dpkg -i mongodb-compass-version.deb
+
+```
+## Instalación de los programas requeridos en MacOS 🖥️
 1. Instalar Homebrew en caso de no tenerlo instalado
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
