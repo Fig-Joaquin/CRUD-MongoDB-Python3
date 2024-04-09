@@ -6,7 +6,7 @@ Este es un proyecto construído con las tecnologías de Python.
 La base de datos utilizada fue por preferencia MongoDB.
 
 ## _¿Cuál es el proposito de este proyecto?_ 
-Una de los objetivos más importante de este proyecto es la interación de un usuario con una Base de Datos MongoDB.
+Una de los objetivos más importante de este proyecto es la interación de un usuario con una Base de Datos MongoDB a través de Python.
 
 ## _Las siguientes funcionalidades desarrolladas en este proyecto son:_ 📌
 1. Funciones CRUD. 
