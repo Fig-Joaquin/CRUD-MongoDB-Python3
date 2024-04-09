@@ -46,9 +46,11 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 * La opción _import_ es para importar un archivo.json el cual debe estar en la carpeta src/json-files para ser reconocido por el programa. Esta opción es útil para importar el respaldo de la base de datos.
 1. Al utilizar está opción debemos primero introducir el nombre de la colección que queremos. (se recomienda llamarle: perros)
 2. Ahora debemos insertar la colección llamada perrosbd.json
+* Si desea salir de esta opción se debe escribir "salir" en la terminal. (Sin las comillas)
 - [x] select
 * La opción _select_ nos ayuda a escoger una colección dentro de nuestra base de datos, en el caso de que existan varias colecciones.
 1. Al utilizar está opción deberemos escoger la colección según el nombre que hemos puesto. En este caso perros.
+* Si desea salir de esta opción se debe escribir "salir" en la terminal. (Sin las comillas)
 - [x] menu
 * La opción _menu_ nos redirigirá a un menú con el CRUD realizado para la base de datos perrosbd.json que se encuentra en la carpeta json-files.
 * Para acceder a las funcionalidades del menu, se debe importar el json con la base de datos a través de la opción _import_, además debemos de seleccionar la colección con la cual vamos a trabajar a través de la opción _select_.
