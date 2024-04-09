@@ -14,7 +14,7 @@ Una de los objetivos más importante de este proyecto es la interación de un us
 3. Función de exportar una colección en la Base de Datos mongoDB.
 4. Función selección de colección en la Base de Datos MongoDB.
 
-## _¿Qué es un CRUD?_ ❓
+## _¿Qué es un CRUD?_
 Un CRUD en la base de datos se refiere a funcionalidades de:
 * Create: Crear un documento en la base de datos.
 * Read: Leer un documento de la base de datos.
@@ -39,7 +39,7 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
   ```
 5. Instalar el sistema de gestión de paqueres PIP.
 
-## Instalación de los programas utilizados en linux ⏳
+## Instalación de los programas utilizados en linux 💻
 1. Instalar Python3 a través de la terminal.
 ```sh
 sudo apt update
@@ -58,7 +58,7 @@ python3 --version
 ```sh
     pip3 install virtualenv
   ```
-## Instalación de los programas utilizados en MacOS ⏳
+## Instalación de los programas utilizados en MacOS 🖥️
 1. Instalar Homebrew en caso de no tenerlo instalado
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -82,7 +82,8 @@ python3 --version
 * [Haz click aquí para descargar MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
-## Instalación de los programas utilizados en Windows
+
+## Instalación de los programas utilizados en Windows 💻
 * Instalar PIP en Windows
 ```sh
     python get-pip.py
