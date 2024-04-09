@@ -26,44 +26,8 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 1. Tener instalado una versión de Python superior a las 3.0 para ejecutar el programa.
 2. Tener instalado MongoDB Compasss o MongoShell para ejecutar la Base de Datos.
 3. Tener instalado el sistema de gestión de paquetes PIP de Python.
+3. Instalar la librería de pymongo para la ejecución correcta del programa.
 4. Seguir los pasos de instalación señalados en este Readme.
-
-## Pasos ejecutar el programa: 🚀
-1. Descargar los archivos src existentes presentes en el Github.
-2. Descomprimir el archivo, si es que no se utilizó git clone.
-3. Crear una nueva carpeta y pegar la carpeta src.
-5. Instalar el sistema de gestión de paqueres PIP.
-6. Instalar MongoDB Compass o MongoShell.
-7. Instalar un ambiente de desarrollo virtual para Python en la carpeta creada en la terminal.
-```sh
-   python3 -m venv proyecto
-  ```
-8. Abrir el ambiente de desarrollo virtual para Python en la terminal.
-* Windows:
-```sh 
-proyecto\Scripts\activate
-```
-* Linux y MacOS
-```sh
-source proyecto/bin/activate
-```
-
-9. Instalar pymongo en la terminal.
-```sh
-pip install pymongo
-```
-10. Abrir el MongoDB Compass y conectarse al localhost:27017 o en el caso del MongoDB Shell, ejecutarlo en la terminal.
-11. Una vez iniciado el ambiente de desarollo, instalado el pymongo y ejecutando la base de datos en localhost podremos iniciar el programa.
-12. Para iniciar el programa en la terminal ejecutamos:
-* MacOS
-```sh  
-python3 main.py
-```
-* Windows y Linux
-```sh
-python main.py
-```
-
 
 ## Instalación de los programas requeridos en Windows 💻
 1. Instalar PIP en Windows
@@ -142,3 +106,40 @@ python3 --version
 * [Haz click aquí para descargar MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
+
+## Pasos ejecutar el programa: 🚀
+1. Descargar los archivos src existentes presentes en el Github.
+2. Descomprimir el archivo, si es que no se utilizó git clone.
+3. Crear una nueva carpeta y pegar la carpeta src.
+5. Instalar el sistema de gestión de paqueres PIP.
+6. Instalar MongoDB Compass o MongoShell.
+7. Instalar un ambiente de desarrollo virtual para Python en la carpeta creada en la terminal.
+```sh
+   python3 -m venv proyecto
+  ```
+8. Abrir el ambiente de desarrollo virtual para Python en la terminal.
+* Windows:
+```sh 
+proyecto\Scripts\activate
+```
+* Linux y MacOS
+```sh
+source proyecto/bin/activate
+```
+9. Instalar pymongo en la terminal.
+```sh
+pip install pymongo
+```
+10. Abrir el MongoDB Compass y conectarse al localhost:27017 o en el caso del MongoDB Shell, ejecutarlo en la terminal.
+11. Una vez iniciado el ambiente de desarollo, instalado el pymongo y ejecutando la base de datos en localhost podremos iniciar el programa.
+12. Para iniciar el programa en la terminal ejecutamos:
+* MacOS
+```sh  
+python3 main.py
+```
+* Windows y Linux
+```sh
+python main.py
+```
+
+
