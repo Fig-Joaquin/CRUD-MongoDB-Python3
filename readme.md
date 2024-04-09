@@ -52,6 +52,7 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 - [x] menu
 * La opción _menu_ nos redirigirá a un menú con el CRUD realizado para la base de datos perrosbd.json que se encuentra en la carpeta json-files.
 * Para acceder a las funcionalidades del menu, se debe importar el json con la base de datos a través de la opción _import_, además debemos de seleccionar la colección con la cual vamos a trabajar a través de la opción _select_.
+1. Al seleccionar esta opción nos redireccionará al menú del CRUD lo cual nos mostrará las siguientes opciones:
 ## Menu del CRUD
 En el menu del CRUD tendremos opciones de:
 1. Agregar un perro a la base de datos.
