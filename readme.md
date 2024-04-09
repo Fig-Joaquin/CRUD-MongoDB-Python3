@@ -80,7 +80,7 @@ python3 --version
   ```
 5. Instalar MongoDB Compass (Interfaz Gráfica)
 * [Haz click aquí para descargar MongoDB Compass](https://www.mongodb.com/try/download/compass)
-_MongoDB Shell (Opcional)_
+- _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
 ## Instalación de los programas utilizados en Windows
 * Instalar PIP en Windows
