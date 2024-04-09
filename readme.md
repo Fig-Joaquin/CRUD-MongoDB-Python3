@@ -46,7 +46,10 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 - [ ] select
 - [ ] menu
 * La opción _import_ es para importar un archivo.json el cual debe estar en la carpeta src/json-files para ser reconocido por el programa. Esta opción es útil para importar el respaldo de la base de datos.
-* La opción _select_
+* La opción _select_ nos ayuda a escoger una colección dentro de nuestra base de datos, en el caso de que existan varias colecciones.
+* La opción _menu_ nos redirigirá a un menú con el CRUD realizado para la base de datos: perrosbd.json. Para acceder a las funcionalidades del menu, se debe importar el json con la base de datos a través de la opción _import_, además debemos de seleccionar la colección con la cual vamos a trabajar a través de la opción _select_.
+
+
 ## Instalación de los programas requeridos en Windows 💻
 1. Instalar Python3
 * [Click descarga de Python](https://www.python.org/)
