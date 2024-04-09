@@ -40,6 +40,7 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 ## Instrucciones del programa 📍
 1. De primera vista el programa nos motrará un mensaje de bienvenida. Presionar enter para continuar.
 2. El programa nos mostrará el menu el cual tendremos a elección 3 secciones.
+- Se debe escribir el nombre de la opción en la terminal para acceder a ella. 
 - _Las siguientes opciones son las siguientes_
 - [ ] import 
 - [ ] select
