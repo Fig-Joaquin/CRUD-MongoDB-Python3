@@ -38,13 +38,13 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 * En MacOS si surgen problemas con MongoDB, intenta descargar MongoDB Comunity Server. Si no ejecuta con mongod, incluye el path. Ejemplo: _sudo mongod --dbpath=/Users/nombre-del-usuario-de-la-maquina/data/db_
 
 ## Instrucciones del programa 📍
-1. De primera vista el programa nos motrará un mensaje de bienvenida. Presionar enter para continuar.
+1. De primera vista el programa nos motrará un mensaje de bienvenida. Presionar Enter para continuar.
 2. El programa nos mostrará el menu el cual tendremos a elección 3 secciones.
 - Se debe escribir el nombre de la opción en la terminal para acceder a ella. 
 - _Las siguientes opciones son las siguientes_
 - [x] import 
 * La opción _import_ es para importar un archivo.json el cual debe estar en la carpeta src/json-files para ser reconocido por el programa. Esta opción es útil para importar el respaldo de la base de datos.
-1. Al utilizar está opción debemos primero introducir el nombre de la colección que queremos. (se recomiendo llamarle: perros)
+1. Al utilizar está opción debemos primero introducir el nombre de la colección que queremos. (se recomienda llamarle: perros)
 2. Ahora debemos insertar la colección llamada perrosbd.json
 - [x] select
 * La opción _select_ nos ayuda a escoger una colección dentro de nuestra base de datos, en el caso de que existan varias colecciones.
@@ -52,7 +52,7 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 - [x] menu
 * La opción _menu_ nos redirigirá a un menú con el CRUD realizado para la base de datos perrosbd.json que se encuentra en la carpeta json-files.
 * Para acceder a las funcionalidades del menu, se debe importar el json con la base de datos a través de la opción _import_, además debemos de seleccionar la colección con la cual vamos a trabajar a través de la opción _select_.
-1. Al seleccionar esta opción nos redireccionará al menú del CRUD lo cual nos mostrará las siguientes opciones:
+1. Al seleccionar esta opción nos redireccionará al menú del CRUD la cual nos mostrará las siguientes opciones:
 ## Menu del CRUD
 En el menu del CRUD tendremos opciones de:
 1. Agregar un perro a la base de datos.
@@ -67,6 +67,11 @@ En el menu del CRUD tendremos opciones de:
 10. Salir del programa.
 * _Se debe de ingresar el numero correspondiente a la opción a utilizar_
 
+## Esquema utilizado en la base de datos MongoDB.
+* El nombre de la mascota como tipo String: __"name"__
+* La edad como tipo int: __"age"__
+* La raza de la mascota como tipo String: __"breed"__
+* El nombre del dueño de la mascota como tipo String: __"dog_owner"__
 ## Instalación de los programas requeridos en Windows 💻
 1. Instalar Python3
 * [Click descarga de Python](https://www.python.org/)
