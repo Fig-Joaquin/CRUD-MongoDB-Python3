@@ -10,7 +10,7 @@ Una de los objetivos más importante de este proyecto es la interación de un us
 
 ## _Las siguientes funcionalidades desarrolladas en este proyecto son:_ 📌
 1. Funciones CRUD. 
-2. Función crear una nueva colección a través de la importación de una Base de Datos MongoDB.
+2. Función para crear una nueva colección a través de la importación de una Base de Datos MongoDB.
 3. Función de exportar una colección en la Base de Datos mongoDB.
 4. Función selección de colección en la Base de Datos MongoDB.
 
@@ -29,19 +29,20 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 3. Instalar la librería de pymongo para la ejecución correcta del programa.
 4. Seguir los pasos de instalación señalados en este Readme.
 
+# Consejos ✏️
+* 
+
 ## Instalación de los programas requeridos en Windows 💻
-1. Instalar PIP en Windows
+1. Instalar Python3
+* [Click descarga de Python](https://www.python.org/)
+2. Instalar PIP en Windows
 ```sh
     python get-pip.py
 ```
-2. Instalar ambiente de desarrollo virtualenv
+3. Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
   ```
-3. Instalar librería pymongo
-```sh 
-    pip install pymongo
-```
 4. Instalar MongoDB Compass (Interfaz Gráfica)
 * [Click aquí para acceder al link de descarga](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
@@ -67,11 +68,7 @@ python3 --version
 ```sh
     pip3 install virtualenv
   ```
-4. Instalar librería pymongo
-```sh 
-    pip install pymongo
-```
-5. Instalar MongoDB Compass
+4. Instalar MongoDB Compass
 _Se debe de descargar en el link que se encuentra al final de esta página_
 * Para instalar el paquete descargado:
 ```sh
@@ -94,24 +91,20 @@ _Verificar la instalación:_
 python3 --version
 
 ```
-4. Instalar ambiente de desarrollo virtualenv
+3. Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
   ```
-5. Instalar librería pymongo
-```sh 
-    pip install pymongo
-```
-6. Instalar MongoDB Compass (Interfaz Gráfica)
+4. Instalar MongoDB Compass (Interfaz Gráfica)
 * [Haz click aquí para descargar MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
 
-## Pasos ejecutar el programa: 🚀
+## Pasos para la correr el programa: 🚀
 1. Descargar los archivos src existentes presentes en el Github.
 2. Descomprimir el archivo, si es que no se utilizó git clone.
 3. Crear una nueva carpeta y pegar la carpeta src.
-5. Instalar el sistema de gestión de paqueres PIP.
+5. Instalar el sistema de gestión de paqueres PIP si es que no está instalado.
 6. Instalar MongoDB Compass o MongoShell.
 7. Instalar un ambiente de desarrollo virtual para Python en la carpeta creada en la terminal.
 ```sh
