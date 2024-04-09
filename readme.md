@@ -87,15 +87,15 @@ En el menu del CRUD tendremos opciones de:
 ## Instalación de los programas requeridos en Windows 💻
 1. Instalar Python3
 * [Click descarga de Python](https://www.python.org/)
-1. Instalar PIP en Windows
+2. Instalar PIP en Windows
 ```sh
     python get-pip.py
 ```
-1. Instalar ambiente de desarrollo virtualenv
+3. Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
   ```
-1. Instalar MongoDB Compass (Interfaz Gráfica)
+4. Instalar MongoDB Compass (Interfaz Gráfica)
 * [Click aquí para acceder al link de descarga](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
