@@ -72,7 +72,7 @@ En el menu del CRUD tendremos opciones de:
 7. Eliminar un perro de la base de datos.
 * Se pide ingresar el nombre del dueño de la mascota, además se mostrará si el dueño tiene uno o más perros. (Evita mal manejo de la información)
 8. Exportar la colección de la base de datos.
-(Se exportará la colección actual en la carpeta json-files)
+* Se exportará la colección actual en la carpeta json-files
 9. Volver al menu principal.
 * Vuelve al menu principal.
 10. Salir del programa.
