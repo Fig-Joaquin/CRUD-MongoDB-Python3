@@ -24,26 +24,40 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
 ## Requisitos ❗
 
 1. Tener instalado una versión de Python superior a las 3.0 para ejecutar el programa.
-2. Tener instalado MongoDB Compasss o MongoShell para ejecutar la Base de Datos.
+2. Tener instalado uno de los 3 servicios MongoDB, tales como MongoDB Compasss, MongoShell o Mongo Community Server para ejecutar la base de datos.
 3. Tener instalado el sistema de gestión de paquetes PIP de Python.
-3. Instalar la librería de pymongo para la ejecución correcta del programa.
-4. Seguir los pasos de instalación señalados en este Readme.
+4. Ejecutar el programa en un ambiente de desarrollo.
+5. Instalar la librería de pymongo para la ejecución correcta del programa.
+6. Tener en ejecución MongoDB en el puerto 27017.
+7. Ejecutar el programa en la terminal.
+8. Seguir los pasos correspondientes de instalación y ejecución señalados en este Readme.
 
 # Consejos ✏️
-* 
+* Si sigues los pasos y surge algún problema, siempre puedes consultar por ayuda.
+* Recuerda instalar los programas requeridos. Si falta alguno puede que no se ejecute el programa.
+* En MacOS si surgen problemas con MongoDB, intenta descargar MongoDB Comunity Server. Si no ejecuta con mongod, incluye el path. Ejemplo: _sudo mongod --dbpath=/Users/nombre-del-usuario-de-la-maquina/data/db_
 
+## Instrucciones del programa 📍
+1. De primera vista el programa nos motrará un mensaje de bienvenida. Presionar enter para continuar.
+2. El programa nos mostrará el menu el cual tendremos a elección 3 secciones.
+_las siguientes opciones son las siguientes_
+- [ ] import 
+- [ ] select
+- [ ] menu
+* La opción _import_ es para importar un archivo.json el cual debe estar en la carpeta src/json-files para ser reconocido por el programa. Esta opción es útil para importar el respaldo de la base de datos.
+* La opción _select_
 ## Instalación de los programas requeridos en Windows 💻
 1. Instalar Python3
 * [Click descarga de Python](https://www.python.org/)
-2. Instalar PIP en Windows
+1. Instalar PIP en Windows
 ```sh
     python get-pip.py
 ```
-3. Instalar ambiente de desarrollo virtualenv
+1. Instalar ambiente de desarrollo virtualenv
 ```sh
     pip3 install virtualenv
   ```
-4. Instalar MongoDB Compass (Interfaz Gráfica)
+1. Instalar MongoDB Compass (Interfaz Gráfica)
 * [Click aquí para acceder al link de descarga](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
@@ -99,13 +113,15 @@ python3 --version
 * [Haz click aquí para descargar MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - _MongoDB Shell (Opcional)_
 * [Haz click aquí para descargar MongoDB Shell](https://www.mongodb.com/try/download/shell)
+- _Mongo Comunity Server_
+* [Haz click aquí para descargar MongoDB Comunity Server](https://www.mongodb.com/try/download/community)
 
-## Pasos para la correr el programa: 🚀
-1. Descargar los archivos src existentes presentes en el Github.
+## Pasos para la correr el programa y ejecución de la base de datos: 🚀
+1. Descargar los archivos existentes presentes en el Github.
 2. Descomprimir el archivo, si es que no se utilizó git clone.
 3. Crear una nueva carpeta y pegar la carpeta src.
 5. Instalar el sistema de gestión de paqueres PIP si es que no está instalado.
-6. Instalar MongoDB Compass o MongoShell.
+6. Instalar MongoDB Compass o MongoShell si no está instalado (recordatorio).
 7. Instalar un ambiente de desarrollo virtual para Python en la carpeta creada en la terminal.
 ```sh
    python3 -m venv proyecto
@@ -123,7 +139,11 @@ source proyecto/bin/activate
 ```sh
 pip install pymongo
 ```
-10. Abrir el MongoDB Compass y conectarse al localhost:27017 o en el caso del MongoDB Shell, ejecutarlo en la terminal.
+10. Para la ejecución de la base de datos haremos lo siguiente:
+_En el caso de MongoDB Compass_
+* Ejecutaremos el programa y nos conectaremos al mongodb://localhost:27017/
+* En el caso de MongoDB Shell ejecutaremos mongosh en la terminal. (Se ejecutará en el localhost:27017 por defecto)
+* En el caso de MongoDB Community Server iniciaremos el programa en la terminal. (Se ejecutará en el localhost:27017 por defecto)
 11. Una vez iniciado el ambiente de desarollo, instalado el pymongo y ejecutando la base de datos en localhost podremos iniciar el programa.
 12. Para iniciar el programa en la terminal ejecutamos:
 * MacOS
