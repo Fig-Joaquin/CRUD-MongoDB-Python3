@@ -39,9 +39,15 @@ Un CRUD en la base de datos se refiere a funcionalidades de:
    python3 -m venv proyecto
   ```
 8. Abrir el ambiente de desarrollo virtual para Python en la terminal.
+* Windows:
+```sh 
+proyecto\Scripts\activate
+```
+* Linux y MacOS
 ```sh
 source proyecto/bin/activate
 ```
+
 9. Instalar pymongo en la terminal.
 ```sh
 pip install pymongo
