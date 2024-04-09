@@ -78,9 +78,10 @@ python3 --version
 ```sh
     pip3 install virtualenv
   ```
-5. Instalar MongoDB Compass
-* [Click aquí para acceder al link de descarga][https://www.mongodb.com/try/download/compass]
-
+5. Instalar MongoDB Compass (Interfaz Gráfica)
+* [Haz click aquí para descargar MongoDB Compass][https://www.mongodb.com/try/download/compass]
+_MongoDB Shell (Opcional)_
+*[Haz click aquí para descargar MongoDB Shell][https://www.mongodb.com/try/download/shell]
 ## Instalación de los programas utilizados en Windows
 * Instalar PIP en Windows
 ```sh
@@ -90,8 +91,9 @@ python3 --version
 ```sh
     pip3 install virtualenv
   ```
-* Instalar MongoDB Compass
+* Instalar MongoDB Compass (Interfaz Gráfica)
 * [Click aquí para acceder al link de descarga][https://www.mongodb.com/try/download/compass]
+* [Haz click aquí para descargar MongoDB Shell][https://www.mongodb.com/try/download/shell]
 
 Instalaciones hechas:
 pip install pymongo
